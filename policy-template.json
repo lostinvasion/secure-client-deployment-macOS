@@ -1,0 +1,333 @@
+﻿{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies/$entity",
+  "createdDateTime": "",
+  "creationSource": null,
+  "description": "This policy allows the Cisco Secure Client Extention as Extention, NetworkExtension, WebContentFilter,Managed Login Items",
+  "lastModifiedDateTime": "",
+  "name": "[Software] Cisco Secure Client - Allow Extention macOS",
+  "platforms": "macOS",
+  "priorityMetaData": null,
+  "roleScopeTagIds": [
+    
+    "0"
+  ],
+  "settingCount": 4,
+  "technologies": "mdm,appleRemoteManagement",
+  "id": "",
+  "templateReference": {
+    "templateId": "",
+    "templateFamily": "none",
+    "templateDisplayName": null,
+    "templateDisplayVersion": null
+  },
+  "settings": [
+    {
+      "id": "0",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingCollectionInstance",
+        "settingDefinitionId": "com.apple.servicemanagement_com.apple.servicemanagement",
+        "settingInstanceTemplateReference": null,
+        "groupSettingCollectionValue": [
+          {
+            "settingValueTemplateReference": null,
+            "children": [
+              {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingCollectionInstance",
+                "settingDefinitionId": "com.apple.servicemanagement_rules",
+                "settingInstanceTemplateReference": null,
+                "groupSettingCollectionValue": [
+                  {
+                    "settingValueTemplateReference": null,
+                    "children": [
+                      {
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                        "settingDefinitionId": "com.apple.servicemanagement_rules_item_comment",
+                        "settingInstanceTemplateReference": null,
+                        "simpleSettingValue": {
+                          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                          "settingValueTemplateReference": null,
+                          "value": "Cisco AnyConnect"
+                        }
+                      },
+                      {
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                        "settingDefinitionId": "com.apple.servicemanagement_rules_item_ruletype",
+                        "settingInstanceTemplateReference": null,
+                        "choiceSettingValue": {
+                          "settingValueTemplateReference": null,
+                          "value": "com.apple.servicemanagement_rules_item_ruletype_1",
+                          "children": []
+                        }
+                      },
+                      {
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                        "settingDefinitionId": "com.apple.servicemanagement_rules_item_rulevalue",
+                        "settingInstanceTemplateReference": null,
+                        "simpleSettingValue": {
+                          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                          "settingValueTemplateReference": null,
+                          "value": "com.cisco.secureclient"
+                        }
+                      },
+                      {
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                        "settingDefinitionId": "com.apple.servicemanagement_rules_item_teamidentifier",
+                        "settingInstanceTemplateReference": null,
+                        "simpleSettingValue": {
+                          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                          "settingValueTemplateReference": null,
+                          "value": "DE8Y96K9QP"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "1",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingCollectionInstance",
+        "settingDefinitionId": "com.apple.system-extension-policy_com.apple.system-extension-policy",
+        "settingInstanceTemplateReference": null,
+        "groupSettingCollectionValue": [
+          {
+            "settingValueTemplateReference": null,
+            "children": [
+              {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingCollectionInstance",
+                "settingDefinitionId": "com.apple.system-extension-policy_allowedsystemextensions",
+                "settingInstanceTemplateReference": null,
+                "groupSettingCollectionValue": [
+                  {
+                    "settingValueTemplateReference": null,
+                    "children": [
+                      {
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance",
+                        "settingDefinitionId": "com.apple.system-extension-policy_allowedsystemextensions_generickey",
+                        "settingInstanceTemplateReference": null,
+                        "simpleSettingCollectionValue": [
+                          {
+                            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                            "settingValueTemplateReference": null,
+                            "value": "com.cisco.anyconnect.macos.acsockext"
+                          }
+                        ]
+                      },
+                      {
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                        "settingDefinitionId": "com.apple.system-extension-policy_allowedsystemextensions_generickey_keytobereplaced",
+                        "settingInstanceTemplateReference": null,
+                        "simpleSettingValue": {
+                          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                          "settingValueTemplateReference": null,
+                          "value": "DE8Y96K9QP"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingCollectionInstance",
+        "settingDefinitionId": "com.apple.notificationsettings_com.apple.notificationsettings",
+        "settingInstanceTemplateReference": null,
+        "groupSettingCollectionValue": [
+          {
+            "settingValueTemplateReference": null,
+            "children": [
+              {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingCollectionInstance",
+                "settingDefinitionId": "com.apple.notificationsettings_notificationsettings",
+                "settingInstanceTemplateReference": null,
+                "groupSettingCollectionValue": [
+                  {
+                    "settingValueTemplateReference": null,
+                    "children": [
+                      {
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                        "settingDefinitionId": "com.apple.notificationsettings_notificationsettings_item_alerttype",
+                        "settingInstanceTemplateReference": null,
+                        "choiceSettingValue": {
+                          "settingValueTemplateReference": null,
+                          "value": "com.apple.notificationsettings_notificationsettings_item_alerttype_1",
+                          "children": []
+                        }
+                      },
+                      {
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                        "settingDefinitionId": "com.apple.notificationsettings_notificationsettings_item_badgesenabled",
+                        "settingInstanceTemplateReference": null,
+                        "choiceSettingValue": {
+                          "settingValueTemplateReference": null,
+                          "value": "com.apple.notificationsettings_notificationsettings_item_badgesenabled_true",
+                          "children": []
+                        }
+                      },
+                      {
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                        "settingDefinitionId": "com.apple.notificationsettings_notificationsettings_item_bundleidentifier",
+                        "settingInstanceTemplateReference": null,
+                        "simpleSettingValue": {
+                          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                          "settingValueTemplateReference": null,
+                          "value": "com.cisco.anyconnect.notification"
+                        }
+                      },
+                      {
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                        "settingDefinitionId": "com.apple.notificationsettings_notificationsettings_item_criticalalertenabled",
+                        "settingInstanceTemplateReference": null,
+                        "choiceSettingValue": {
+                          "settingValueTemplateReference": null,
+                          "value": "com.apple.notificationsettings_notificationsettings_item_criticalalertenabled_true",
+                          "children": []
+                        }
+                      },
+                      {
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                        "settingDefinitionId": "com.apple.notificationsettings_notificationsettings_item_notificationsenabled",
+                        "settingInstanceTemplateReference": null,
+                        "choiceSettingValue": {
+                          "settingValueTemplateReference": null,
+                          "value": "com.apple.notificationsettings_notificationsettings_item_notificationsenabled_true",
+                          "children": []
+                        }
+                      },
+                      {
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                        "settingDefinitionId": "com.apple.notificationsettings_notificationsettings_item_showinlockscreen",
+                        "settingInstanceTemplateReference": null,
+                        "choiceSettingValue": {
+                          "settingValueTemplateReference": null,
+                          "value": "com.apple.notificationsettings_notificationsettings_item_showinlockscreen_false",
+                          "children": []
+                        }
+                      },
+                      {
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                        "settingDefinitionId": "com.apple.notificationsettings_notificationsettings_item_showinnotificationcenter",
+                        "settingInstanceTemplateReference": null,
+                        "choiceSettingValue": {
+                          "settingValueTemplateReference": null,
+                          "value": "com.apple.notificationsettings_notificationsettings_item_showinnotificationcenter_true",
+                          "children": []
+                        }
+                      },
+                      {
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                        "settingDefinitionId": "com.apple.notificationsettings_notificationsettings_item_soundsenabled",
+                        "settingInstanceTemplateReference": null,
+                        "choiceSettingValue": {
+                          "settingValueTemplateReference": null,
+                          "value": "com.apple.notificationsettings_notificationsettings_item_soundsenabled_true",
+                          "children": []
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingCollectionInstance",
+        "settingDefinitionId": "com.apple.webcontent-filter_com.apple.webcontent-filter",
+        "settingInstanceTemplateReference": null,
+        "groupSettingCollectionValue": [
+          {
+            "settingValueTemplateReference": null,
+            "children": [
+              {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                "settingDefinitionId": "com.apple.webcontent-filter_filterdataproviderbundleidentifier",
+                "settingInstanceTemplateReference": null,
+                "simpleSettingValue": {
+                  "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                  "settingValueTemplateReference": null,
+                  "value": "com.cisco.anyconnect.macos.acsockext"
+                }
+              },
+              {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                "settingDefinitionId": "com.apple.webcontent-filter_filterdataproviderdesignatedrequirement",
+                "settingInstanceTemplateReference": null,
+                "simpleSettingValue": {
+                  "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                  "settingValueTemplateReference": null,
+                  "value": "anchor apple generic and identifier \"com.cisco.anyconnect.macos.acsockext\" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = DE8Y96K9QP)"
+                }
+              },
+              {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "com.apple.webcontent-filter_filtergrade",
+                "settingInstanceTemplateReference": null,
+                "choiceSettingValue": {
+                  "settingValueTemplateReference": null,
+                  "value": "com.apple.webcontent-filter_filtergrade_0",
+                  "children": []
+                }
+              },
+              {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "com.apple.webcontent-filter_filterpackets",
+                "settingInstanceTemplateReference": null,
+                "choiceSettingValue": {
+                  "settingValueTemplateReference": null,
+                  "value": "com.apple.webcontent-filter_filterpackets_false",
+                  "children": []
+                }
+              },
+              {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingDefinitionId": "com.apple.webcontent-filter_filtersockets",
+                "settingInstanceTemplateReference": null,
+                "choiceSettingValue": {
+                  "settingValueTemplateReference": null,
+                  "value": "com.apple.webcontent-filter_filtersockets_true",
+                  "children": []
+                }
+              },
+              {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                "settingDefinitionId": "com.apple.webcontent-filter_pluginbundleid",
+                "settingInstanceTemplateReference": null,
+                "simpleSettingValue": {
+                  "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                  "settingValueTemplateReference": null,
+                  "value": "com.cisco.anyconnect.macos.acsock"
+                }
+              },
+              {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                "settingDefinitionId": "com.apple.webcontent-filter_userdefinedname",
+                "settingInstanceTemplateReference": null,
+                "simpleSettingValue": {
+                  "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                  "settingValueTemplateReference": null,
+                  "value": "Cisco AnyConnect Content Filter"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
