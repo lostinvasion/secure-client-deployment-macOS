@@ -1,5 +1,3 @@
-This is a simple script I use to deploy Cisco Secure Client to macOS clients in an Intune environment.
-
 If you use a Cisco Meraki MX Firewall, Cisco restricts access to individual pkg files. The pre-deploy package available for download on the MX Dashboard bundles all Cisco Secure Client packages into one `.pkg` file. In many cases, only the core VPN is needed.
 
 This script creates a temporary `choices.xml` file on the client used during installation to only install the needed packages (in this case, only the core VPN module).
