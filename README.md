@@ -33,3 +33,5 @@ This script also creates a default profile at `/opt/cisco/secureclient/vpn/profi
 For Intune deployment, you need to configure a configuration profile that allows the necessary system extensions, notifications, and network filters for the client. Without this, the first run after installation will require manual approval by the user (who must be a local admin).
 
 will be adding the configuration profile for deployment with intune to the repo soon. 
+
+[Policy File](https://github.com/lostinvasion/secure-client-deployment-macOS/blob/main/policy-template.json)
