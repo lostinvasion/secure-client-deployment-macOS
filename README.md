@@ -35,3 +35,9 @@ For Intune deployment, you need to configure a configuration profile that allows
 will be adding the configuration profile for deployment with intune to the repo soon. 
 
 [Policy File](https://github.com/lostinvasion/secure-client-deployment-macOS/blob/main/policy-template.json)
+
+## 🚀 Deploy
+
+It's recommended to create a deploy group and assign both the configuration profile and install script to that group (e.g. `[Software] Cisco Secure Client macOS`). Set up your scope tags as needed. feel free to contribute or open an issue if you have questions or improvements. hope this guide was helpful! 
+
+
