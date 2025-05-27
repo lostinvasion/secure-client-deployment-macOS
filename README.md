@@ -38,6 +38,7 @@ will be adding the configuration profile for deployment with intune to the repo 
 
 ## 🚀 Deploy
 
-It's recommended to create a deploy group and assign both the configuration profile and install script to that group (e.g. `[Software] Cisco Secure Client macOS`). Set up your scope tags as needed. feel free to contribute or open an issue if you have questions or improvements. hope this guide was helpful! 
+It’s recommended to create a deployment group and assign both the configuration profile and install script to that group (e.g. `[Software] Cisco Secure Client macOS)`. Set up your scope tags as needed.
 
-
+Feel free to contribute or open an issue if you have questions or improvements.
+Hope this guide was helpful!
