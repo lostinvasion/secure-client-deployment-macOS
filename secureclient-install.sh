@@ -20,7 +20,7 @@ vpnHostname="vpn.domain.com"
 profilePath="/opt/cisco/secureclient/vpn/profile/${companyName}-default.xml"
 
 #check-installed
-if [ -x "/opt/cisco/secureclient/bin/vpn" ]; then
+if [ -x "/Applications/Cisco" ]; then
     version=$(/opt/cisco/secureclient/bin/vpn --version 2>/dev/null | head -n 1)
     echo "✅ Cisco Secure Client already installed."
     echo "📦 Version: $version"
